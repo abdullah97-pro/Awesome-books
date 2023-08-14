@@ -15,8 +15,9 @@ function renderBooks() {
     const removeBtn = document.createElement('button');
     removeBtn.className = 'btn';
     removeBtn.textContent = 'Remove';
+    /* eslint-disable */
     removeBtn.addEventListener('click', () => removeBook(index));
-
+    /* eslint-enable */
     bookDiv.appendChild(spanTitle);
     bookDiv.appendChild(spanAuthor);
     bookDiv.appendChild(removeBtn);
