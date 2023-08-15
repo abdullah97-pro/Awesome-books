@@ -1,0 +1,78 @@
+h1 {
+  text-align: center;
+}
+
+div {
+  width: 90%;
+  height: auto;
+  background-color: white;
+  margin: 30px auto;
+  text-align: center;
+}
+
+#bookList {
+  margin-bottom: 100px;
+}
+
+#bookList div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 2px solid black;
+}
+
+p,
+label {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+button {
+  background-color: red;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 12px 16px;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=text] {
+  display: block;
+  width: 80%;
+  height: 20px;
+  background-color: transparent;
+  margin: 10px auto;
+  border: none;
+  border-bottom: 1px solid rgb(105, 94, 94);
+  outline: none;
+  padding: 8px 12px;
+  color: black;
+  text-align: center;
+}
+
+input[type=text]:focus {
+  background-color: gray;
+  color: white;
+}
+
+h1::before {
+  content: '*** ';
+}
+
+h1::after {
+  content: ' ***';
+}
+
+#addButton {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
